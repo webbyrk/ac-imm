@@ -19,23 +19,7 @@ A static website created for the Interactive Media Management program at Algonqu
 
 ## File Structure
 
-ac-imm/
-│
-├── index.html
-├── about.html
-├── careers.html
-├── portfolio.html
-├── assets/
-│ ├── css/
-│ │ ├── bootstrap/
-│ │ ├── owl-carousel/
-│ │ └── custom/
-│ ├── js/
-│ │ ├── jquery/
-│ │ ├── bootstrap/
-│ │ ├── owl-carousel/
-│ │ └── custom/
-│ └── images/
+![File structure](assets/images/file-structure.png)
 
 ---
 
