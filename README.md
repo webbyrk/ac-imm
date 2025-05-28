@@ -41,7 +41,7 @@ ac-imm/
 
 ## 📸 Screenshots
 
-https://webbyrk.github.io/ac-imm/assets/images/screenshot.png
+![IMM Screenshot](assets/images/screenshot.png)
 
 ---
 
