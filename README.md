@@ -39,6 +39,12 @@ ac-imm/
 
 ---
 
+## 📸 Screenshots
+
+https://webbyrk.github.io/ac-imm/assets/images/screenshot.png
+
+---
+
 ## Images and Media
 
 This project uses free stock images from the following sources:
