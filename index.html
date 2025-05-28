@@ -1,11 +1,711 @@
+<!--                                                                     
+  ___  __  __  __  __ 
+ |_ _||  \/  ||  \/  |
+  | ||| |\/| || |\/| |
+  | ||| |  | || |  | |
+ |___||_|  |_||_|  |_|  
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Interactive Media Management - Algonquin College">
+    <meta name="author" content="">
+	<title>Home | Interactive Media Management</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.default.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom/theme.css">
 </head>
 <body>
-    
+
+    <!-- Header: Logo, Menu, Hamburger etc. -->
+    <header>
+        <section class="">
+            <div class="container">
+                <div class="header">
+                    <div class="main-header">
+                        <div class="logo d-inline-flex">
+                            <a href="index.html" class="d-inline-flex">
+                                <img src="assets/images/logo-imm.svg" alt="Interactive Media Management Logo">
+                            </a>
+                        </div>
+                        <div class="navigation">
+                            <nav>
+                                <div class="main-menu">
+                                    <div class="close-menu">
+                                        <a href="#" onclick="mobileNavigationOff()">
+                                            <span class="material-symbols-outlined">
+                                                close
+                                                </span>
+                                        </a>
+                                    </div>
+                                    <ul class="no-style-list p-0 m-0 theme-menu">
+                                        <li><a class="active" href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="careers.html">Careers</a></li>
+                                    </ul>
+                                    <div class="d-block d-lg-none mt-5 px-3">
+                                        <a href="https://www.ontariocolleges.ca/en/apply-now?collegeCode=ALGO&programCode=0300X01F" class="theme-button black w-100" target="_blank">
+                                            <span class="theme-button-text">Apply Now</span>
+                                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="header-icons">
+                            <div class="hamburger">
+                                <a href="#" onclick="mobileNavigationOn()"><span class="material-symbols-outlined">
+                                    menu
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="ps-2 d-none d-lg-block">
+                                <a href="https://www.ontariocolleges.ca/en/apply-now?collegeCode=ALGO&programCode=0300X01F" class="theme-button black" target="_blank">
+                                    <span class="theme-button-text">Apply Now</span>
+                                    <span class="material-symbols-outlined">arrow_right_alt</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Main -->
+     <main>
+        <section class="">
+            <div class="container">
+                <div class="row align-items-center my-5">
+                    <div class="col-md-7">
+                        <div class="hero-text">
+                            <span class="banner-highlights">BUILD A SOLID FOUNDATION FOR TODAY'S MARKET</span>
+                            <h1 class="banner-heading mt-2 pt-1 mb-2">Learn, Create, and Lead in <span class="banner-text-highlight">Interactive Media</span></h1>
+                            <p class="body-text mt-3 mt-md-0">Advance your skills in interactive media and design; build a solid foundation for today's global job market.</p>
+                            <div class="d-flex mt-4 mt-md-3">                           
+                                <a href="https://www.ontariocolleges.ca/en/apply-now?collegeCode=ALGO&programCode=0300X01F" target="_blank"  class="theme-button black me-3">
+                                    <span class="theme-button-text">Apply Now</span>
+                                    <span class="material-symbols-outlined">arrow_right_alt</span>
+                                </a>
+                                <a href="about.html" class="theme-button white">
+                                    <span class="theme-button-text">Know More</span>
+                                    <span class="material-symbols-outlined">arrow_right_alt</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mt-5 mt-md-0">
+                        <div class="hero-slider">
+                            <div class="owl-carousel owl-theme hero-owl">
+                                <div class="item">
+                                    <div class="hero-slider-image" style="background-image: url('assets/images/photography.jpg');">
+                                        <h3 class="hero-slider-text">PHOTOGRAPHY</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="hero-slider-image" style="background-image: url('assets/images/videography.jpg');">
+                                        <h3 class="hero-slider-text">VIDEOGRAPHY</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="hero-slider-image" style="background-image: url('assets/images/web.jpg');">
+                                        <h3 class="hero-slider-text">WEB</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="hero-slider-image" style="background-image: url('assets/images/design.jpg');">
+                                        <h3 class="hero-slider-text">UI/UX DESIGN</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="hero-slider-image" style="background-image: url('assets/images/motion.jpg');">
+                                        <h3 class="hero-slider-text">MOTION GRAPHICS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="">
+                    <h3 class="heading-tiny">ORGANIZATIONS WE'VE COLLABORATED WITH</h3>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-4 col-xl-2">
+                        <div class="company-box">
+                            <div class="company-image">
+                                <img src="assets/images/company-logo.png" alt="Company 1" class="img-fluid">
+                            </div>
+                            <h3 class="company-name">City of Ottawa</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2">
+                        <div class="company-box">
+                            <div class="company-image">
+                                <img src="assets/images/company-logo.png" alt="Company 1" class="img-fluid">
+                            </div>
+                            <h3 class="company-name">Water Aid</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2">
+                        <div class="company-box">
+                            <div class="company-image">
+                                <img src="assets/images/company-logo.png" alt="Company 1" class="img-fluid">
+                            </div>
+                            <h3 class="company-name">Voice Found</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2">
+                        <div class="company-box">
+                            <div class="company-image">
+                                <img src="assets/images/company-logo.png" alt="Company 1" class="img-fluid">
+                            </div>
+                            <h3 class="company-name">Enviro Centre</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2">
+                        <div class="company-box">
+                            <div class="company-image">
+                                <img src="assets/images/company-logo.png" alt="Company 1" class="img-fluid">
+                            </div>
+                            <h3 class="company-name">Reach Canada</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2">
+                        <div class="company-box">
+                            <div class="company-image">
+                                <img src="assets/images/company-logo.png" alt="Company 1" class="img-fluid">
+                            </div>
+                            <h3 class="company-name">CHEO</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container pt-4 mt-4 mt-md-3 pt-md-5">
+                <div class="pt-4">
+                    <h3 class="heading-medium">ABOUT PROGRAM</h3>
+                    <h2 class="heading-text mt-2">Shape Your Future in  <span class="heading-text-highlight">Interactive Media Management</span></h2>
+                    <p class="body-text pt-3">As the demand for media, video, and web-based experience has become commonplace in various industries, this media driven program gives graduates the solid foundation needed in today's dynamic job market. The Interactive Media Management program prepares students to work as media designers and producers for all levels of agencies, corporations, institutions, or governmental departments.</p>
+                </div>
+                <div class="about-boxes pt-4">
+                    <div class="about-box">
+                        <div class="about-icon">
+                            <span class="material-symbols-outlined">history</span>
+                        </div>
+                        <div class="about-text">
+                            <h3 class="about-head">STARTED IN</h3>
+                            <h4 class="about-desc">1995</h4>
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <div class="about-icon">
+                            <span class="material-symbols-outlined">location_on</span>
+                        </div>
+                        <div class="about-text">
+                            <h3 class="about-head">WHERE?</h3>
+                            <h4 class="about-desc">Algonquin College, Ottawa</h4>
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <div class="about-icon">
+                            <span class="material-symbols-outlined">hourglass_top</span>
+                        </div>
+                        <div class="about-text">
+                            <h3 class="about-head">DURATION</h3>
+                            <h4 class="about-desc">02 Semesters</h4>
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <div class="about-icon">
+                            <span class="material-symbols-outlined">design_services</span>
+                        </div>
+                        <div class="about-text">
+                            <h3 class="about-head">AREA OF INTEREST</h3>
+                            <h4 class="about-desc">Arts and Design</h4>
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <div class="about-icon">
+                            <span class="material-symbols-outlined">language</span>
+                        </div>
+                        <div class="about-text">
+                            <h3 class="about-head">AVAILABILITY</h3>
+                            <h4 class="about-desc">Domestic & International</h4>
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <div class="about-icon">
+                            <span class="material-symbols-outlined">workspace_premium</span>
+                        </div>
+                        <div class="about-text">
+                            <h3 class="about-head">CREDENTIAL</h3>
+                            <h4 class="about-desc">Ontario College Graduate Certificate</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container pt-4 mt-4 mt-md-3 pt-md-5">
+                <div class="pt-4">
+                    <h3 class="heading-medium">WHAT YOU'LL LEARN</h3>
+                    <h2 class="heading-text mt-2">Skills  <span class="heading-text-highlight">You'll Master</span> in This Program</h2>
+                    <p class="body-text pt-3">In the one-year Interactive Media Management Graduate Certificate program, you develop the hands-on skills to plan and develop websites, online media and dynamic content. You experience the complete design and development process lifecycle of a media-rich product and learn the fundamentals of the industry standard software package Adobe Master Collection.</p>
+                </div>
+                <div class="pt-4">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                            <div class="left-panel">
+                                <div class="accordion-box">
+                                    <div class="accordion-header" data-tab="tab1">
+                                        <h3 class="accordion-heading">Interactive Courses</h3>
+                                        <span class="arrow">
+                                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                                        </span>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p class="body-text mb-0">Interactive Media Management program develops skills to plan and create websites, online media, and dynamic content.</p>
+                                    </div>
+                                </div>   
+                                <div class="accordion-box">
+                                    <div class="accordion-header" data-tab="tab2">
+                                        <h3 class="accordion-heading">Design Tools & Tech Stack</h3>
+                                        <span class="arrow">
+                                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                                        </span>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p class="body-text mb-0">You experience the complete design and development process lifecycle of a media-rich product.</p>
+                                    </div>
+                                </div>   
+                                <div class="accordion-box">
+                                    <div class="accordion-header" data-tab="tab3">
+                                        <h3 class="accordion-heading">Real World Projects</h3>
+                                        <span class="arrow">
+                                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                                        </span>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p class="body-text mb-0">Throughout the program, as you apply your skills on solo projects and team-based applications.</p>
+                                    </div>
+                                </div>   
+                                <div class="accordion-box">
+                                    <div class="accordion-header" data-tab="tab4">
+                                        <h3 class="accordion-heading">Profile & Portfolio</h3>
+                                        <span class="arrow">
+                                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                                        </span>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p class="body-text mb-0">Interactive Media Management helps build a strong profile and portfolio, showcasing your skills to land your dream job.</p>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>                
+                        <div class="col-md-12 col-lg-8 mt-4 mt-lg-0">
+                            <div class="right-panel">
+                                <div id="tab1" class="tab-content active">
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">dashboard</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Web Components</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 01</span>
+                                            <span class="course-tag theme-tag">42 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">stylus_note</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Web Styles</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 01</span>
+                                            <span class="course-tag theme-tag">70 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">rebase_edit</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Graphic Applications</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 01</span>
+                                            <span class="course-tag theme-tag">56 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">photo_camera</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Studio Lab I</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 01</span>
+                                            <span class="course-tag theme-tag">56 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">ads_click</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">UX Design</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 01</span>
+                                            <span class="course-tag theme-tag">42 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">video_file</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Video Composition</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 01</span>
+                                            <span class="course-tag theme-tag">56 Hours</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">animation</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Motion Graphic Effects</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 02</span>
+                                            <span class="course-tag theme-tag">42 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">developer_mode_tv</span>
+                                                
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Client-Side Development</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 02</span>
+                                            <span class="course-tag theme-tag">56 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">add_a_photo</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Studio Lab II</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 02</span>
+                                            <span class="course-tag theme-tag">42 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">database_search</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Database and Server-Side Development</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 02</span>
+                                            <span class="course-tag theme-tag">42 Hours</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <span class="material-symbols-outlined">work</span>
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Client Projects</h3>
+                                            </div>
+                                        </div>
+                                        <div class="course-box-tags">
+                                            <span class="course-tag theme-tag">Level 02</span>
+                                            <span class="course-tag theme-tag">84 Hours</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab2" class="tab-content">
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/ps.png" alt="Photoshop" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Photoshop</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/ai.png" alt="Adobe Illustrator" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Adobe Illustrator</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/pr.png" alt="Premiere Pro" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Premiere Pro</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/id.png" alt="InDesign" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">InDesign</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/ae.png" alt="After Effects" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">After Effects</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/figma.png" alt="Figma" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">Figma</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/html.png" alt="html" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">HTML</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="course-box-wrap">
+                                        <div class="course-box">
+                                            <div class="course-icon">
+                                                <img src="assets/images/software/css.png" alt="CSS" class="course-img">
+                                            </div>
+                                            <div class="course-text">
+                                                <h3 class="course-heading">CSS</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab3" class="tab-content">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3 class="accordion-heading pb-3">Hands-On Projects</h3>
+                                            <p class="body-text mb-0">Gain hands-on experience by working on solo and team-based projects that reflect real industry challenges. Throughout the program, you'll refine your problem-solving skills, collaborate with peers, and build a professional portfolio.</p>
+                                        </div>
+                                        <div class="col-md-6 mt-4">
+                                            <img src="assets/images/bike-dump.jpg" alt="Bike Dump" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-6 mt-4">
+                                            <img src="assets/images/maplebrook.jpg" alt="Maplebrook" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab4" class="tab-content">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3 class="accordion-heading pb-3">Professional Portfolio & Profile</h3>
+                                            <p class="body-text mb-0">Build a compelling professional profile and portfolio that highlights your skills, creativity, and expertise. The Interactive Media Management program equips you with the tools to showcase your best work, helping you stand out in the industry and secure your dream job.</p>
+                                        </div>
+                                        <div class="col-md-6 mt-4">
+                                            <img src="assets/images/resume.jpg" alt="Resume" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-6 mt-4">
+                                            <img src="assets/images/portfolio.jpg" alt="Portfolio" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container pt-4 mt-4 mt-md-3 pt-md-5">
+                <div class="pt-4">
+                    <div class="position-relative owl-heading-btns">
+                        <div class="">
+                            <h3 class="heading-medium">TESTIMONIALS</h3>
+                            <h2 class="heading-text mt-2">Hear From <span class="heading-text-highlight">Our Graduates</span></h2>
+                        </div>
+                        <div class="testimonials pt-3">
+                            <div class="owl-carousel owl-theme testimonials-owl theme-arrow">
+                                <div class="item">
+                                    <div class="testimonials-box">
+                                        <p class="testimonials-quote">The Program Has been a learning experience for me. We got to learn about in work experience by involving ourselves in client projects.I had fun working in the client project with my team mate with better efficiency in time management.</p>
+                                        <h3 class="heading-24 green">Supratik P.</h3>
+                                        <h4 class="heading-17">IMM GRADUATE</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonials-box">
+                                        <p class="testimonials-quote">This program has not only given me the knowledge needed in the workplace but also the skills. It was truly a great experience! In a short time, the interactive multimedia program has provided me with various tools needed in the workplace. I very much enjoyed this program! Thank you for the experience!</p>
+                                        <h3 class="heading-24 green">Tracy K.</h3>
+                                        <h4 class="heading-17">IMM GRADUATE</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonials-box">
+                                        <p class="testimonials-quote">The Interactive Multimedia course is an excellent program, the professors are always there for us providing ever so needed advice or help. The course material is very robust and keeps up with the ever changing technological times. I'm really glad I chose this program, I'm loving every moment of it!</p>
+                                        <h3 class="heading-24 green">Leighton R.</h3>
+                                        <h4 class="heading-17">IMM GRADUATE</h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonials-box">
+                                        <p class="testimonials-quote">In fact I am really lucky to have taken this program here at Algonquin College. As an international student, I will be ready to make difference in my career in my future jobs when I go back to Brazil. Thank you.</p>
+                                        <h3 class="heading-24 green">Wilson F.</h3>
+                                        <h4 class="heading-17">IMM GRADUATE</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="overlap-footer">
+            <div class="container pt-4 mt-4 mt-md-3 pt-md-5">
+                <div class="pt-4">
+                    <div class="cta-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h2 class="cta-heading-text">Apply Now & Build Your Future in Interactive Media!</h2>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="d-flex justify-content-start justify-content-md-end mt-3 mt-md-0">
+                                    <a href="https://www.ontariocolleges.ca/en/apply-now?collegeCode=ALGO&programCode=0300X01F" target="_blank" class="theme-button black">
+                                        <span class="theme-button-text">Apply Now</span>
+                                        <span class="material-symbols-outlined">arrow_right_alt</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+     <footer class="footer top-space">
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="assets/images/ac-logo-white.png" alt="Interactive Media Management Logo" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <ul class="footer-social">
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none"><path d="M41.1998 20.9321C41.1998 9.5919 32.0066 0.398682 20.6664 0.398682C9.32616 0.398682 0.132935 9.5919 0.132935 20.9321C0.132935 30.5615 6.76276 38.6418 15.7063 40.861V27.2071H11.4723V20.9321H15.7063V18.2283C15.7063 11.2395 18.8693 8.00015 25.7307 8.00015C27.0317 8.00015 29.2764 8.25559 30.1947 8.5102V14.198C29.7101 14.147 28.8682 14.1216 27.8227 14.1216C24.456 14.1216 23.155 15.3971 23.155 18.7128V20.9321H29.862L28.7097 27.2071H23.155V41.3152C33.3223 40.0873 41.2006 31.4304 41.2006 20.9321H41.1998Z" fill="white"/></svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="28" viewBox="0 0 40 28" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M35.2204 1.11071C36.8977 1.55969 38.2157 2.87775 38.6647 4.55499C39.4793 7.59198 39.4793 13.9321 39.4793 13.9321C39.4793 13.9321 39.4793 20.2723 38.6647 23.3093C38.2157 24.9865 36.8977 26.3046 35.2204 26.7536C32.1834 27.5681 20.0002 27.5681 20.0002 27.5681C20.0002 27.5681 7.81695 27.5681 4.77996 26.7536C3.10272 26.3046 1.78466 24.9865 1.33569 23.3093C0.521118 20.2723 0.521118 13.9321 0.521118 13.9321C0.521118 13.9321 0.521118 7.59198 1.33569 4.55499C1.78466 2.87775 3.10272 1.55969 4.77996 1.11071C7.81695 0.296143 20.0002 0.296143 20.0002 0.296143C20.0002 0.296143 32.1834 0.296143 35.2204 1.11071ZM26.2216 13.9321L16.1004 19.7752V8.089L26.2216 13.9321Z" fill="white"/></svg></a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none"><path d="M37.6693 4.11597H8.99733C6.52437 4.11597 4.51733 6.12301 4.51733 8.59597V37.268C4.51733 39.7409 6.52437 41.748 8.99733 41.748H37.6693C40.1423 41.748 42.1493 39.7409 42.1493 37.268V8.59597C42.1493 6.12301 40.1423 4.11597 37.6693 4.11597ZM16.1653 18.452V35.476H10.7893V18.452H16.1653ZM10.7893 13.4971C10.7893 12.2427 11.8645 11.284 13.4773 11.284C15.0901 11.284 16.1026 12.2427 16.1653 13.4971C16.1653 14.7515 15.1618 15.764 13.4773 15.764C11.8645 15.764 10.7893 14.7515 10.7893 13.4971ZM35.8773 35.476H30.5013C30.5013 35.476 30.5013 27.179 30.5013 26.516C30.5013 24.724 29.6053 22.932 27.3653 22.8961H27.2937C25.1253 22.8961 24.2293 24.7419 24.2293 26.516C24.2293 27.3313 24.2293 35.476 24.2293 35.476H18.8533V18.452H24.2293V20.7457C24.2293 20.7457 25.9586 18.452 29.4351 18.452C32.9922 18.452 35.8773 20.898 35.8773 25.8529V35.476Z" fill="white"/></svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="footer-bottom">
+                    <p class="footer-bottom-text">&copy; 2025 Algonquin College. All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+     </footer>
+    <!-- jquery -->
+    <script src="assets/js/jquery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script> 
+    <!-- Owl Carousel JS -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom/theme.js"></script>
 </body>
 </html>

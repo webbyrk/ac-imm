@@ -1,0 +1,25 @@
+Bootstrap v5.3.3 (https://getbootstrap.com/)
+jQuery v3.7.1
+Owl Carousel v2.3.4
+https://fonts.google.com/specimen/Open+Sans
+https://fonts.google.com/icons
+
+
+Images
+https://pixabay.com/photos/technology-computer-code-javascript-1283624/
+https://pixabay.com/photos/cat-vector-abstract-drawing-2011427/
+https://pixabay.com/illustrations/resume-curriculum-vitae-biodata-cv-7324520/
+https://pixabay.com/photos/portfolio-wooden-tiles-word-wood-8279357/
+
+https://pixabay.com/photos/studio-photography-studio-7028678/
+https://www.pexels.com/photo/black-dslr-camera-mounted-on-black-tripod-212372/
+https://www.pexels.com/photo/white-printer-paper-196645/
+https://pixabay.com/photos/student-typing-keyboard-text-woman-849822/
+https://pixabay.com/photos/flowers-photo-album-polaroids-7801751/
+
+https://pixabay.com/photos/canada-day-canada-flag-canada-red-5370634/
+https://pixabay.com/photos/laptop-iphone-workspace-hands-614213/
+https://pixabay.com/photos/clipper-movie-picture-video-cinema-4223871/
+https://pixabay.com/photos/finance-bank-banking-business-4858797/
+https://www.pexels.com/photo/a-close-up-shot-of-articles-of-the-novel-coronavirus-13035736/
+https://pixabay.com/photos/job-interview-handshake-hiring-4131482/
